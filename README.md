@@ -38,6 +38,8 @@ Note that several level text files can be entered into command(10 are provided).
 To play all 10 levels, run the following command:
 ```./tom_and_jerry levels/1.txt levels/2.txt levels/3.txt levels/4.txt levels/5.txt levels/6.txt levels/7.txt levels/8.txt levels/9.txt levels/10.txt```
 
+For the best experience, run on a large cmd or terminal window
+
 # Building Source Code
 If you want build the game after modifying the source code, run the following command in the same directory as the 'tom_and_jerry.c' file, and the ZDK folder.
 ```gcc tom_and_jerry.c -std=gnu99 -IZDK -LZDK -lzdk -lncurses -o tom_and_jerry```
